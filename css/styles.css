@@ -1,0 +1,215 @@
+body{
+  font-family: "Montserrat";
+}
+
+
+#title{
+  background-color: #ff4c68;
+
+
+}
+
+
+.container-fluid{
+
+    padding: 7% 15% 7%;
+}
+
+h1{
+  font-family: "Montserrat-Black";
+
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: bold;
+}
+
+h3{
+  font-family: "Montserrat-Bold";
+  size : 1.5rem;
+}
+
+p{
+  color: grey;
+}
+
+h2{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+
+  color: white;
+}
+
+.cardh2{
+  font-family: "Montserrat-Black";
+  color: Black;
+  font-weight :bold;
+
+}
+
+  /*Navbar*/
+
+  .navbar{
+    padding-bottom: 4.5rem;
+  }
+
+
+
+  .navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .nav-item{
+    padding-left:  18px;
+    position: relative;
+    right: 100px;
+  }
+
+  .nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light"
+  }
+
+
+  /* Download Buttons */
+  .donwload-buttons{
+    margin: 5% 3% 5% 0%
+  }
+
+
+ /* Title Image */
+ .title-image{
+   height: 505px ;
+   width: 250px;
+
+   transform: rotate(25deg);
+   position: absolute;
+  z-index: 0;
+
+ }
+
+
+/*Features*/
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    z-index : 1;
+}
+
+.feature-box{
+  padding: 5%
+}
+
+
+
+.icons{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.icons:hover{
+  color: #ff4c68;
+}
+
+
+/* Testinomials */
+
+#testimonials{
+  background-color: #ef8172;
+
+  text-align:center;
+
+}
+
+.testinomial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+/* Press */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 20px  50px;
+}
+
+
+
+
+/* Pricing */
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+@media (max-width : 1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+
+/* CTA */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 100px 6% 40px;
+
+}
+
+
+.h2CTA{
+
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.cta-buttom{
+  margin: 70px 20px;
+}
+
+
+/* Social Links */
+.social-links{
+  text-align: center;
+  padding-left: 30px;
+}
+
+.social-icons{
+  padding-left: 30px;
+  height: 40px;
+  width: 20px;
+}
